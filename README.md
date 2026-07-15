@@ -28,3 +28,16 @@ Contributions are welcome! Feel free to open an Issue or Pull Request.
 ## 📄 License
 
 MIT License
+## 📂 Google Flow
+
+```text
+Google-Flow/
+├── Beginner.md
+├── Advanced.md
+├── Camera-Movements.md
+├── Character-Consistency.md
+├── Environment-Design.md
+├── Lighting.md
+├── JSON-Templates.md
+├── Prompt-Checklist.md
+└── Ultimate-Prompt-Formula.md
