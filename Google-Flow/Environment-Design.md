@@ -1,32 +1,140 @@
 # Environment Design Guide
 
-## Indoor Environments
+## Introduction
+
+A believable environment makes AI-generated videos feel realistic and cinematic. Every prompt should clearly describe where the scene takes place and how the surroundings look.
+
+---
+
+# Environment Formula
+
+Location + Time + Weather + Background + Objects + Atmosphere + Colors + Details
+
+---
+
+# Indoor Environments
+
+Examples:
+
 - Modern Living Room
 - Luxury Bedroom
-- Office Workspace
+- Office
+- Classroom
 - Coffee Shop
-- School Classroom
-- Sci-Fi Laboratory
+- Restaurant
+- Library
+- Shopping Mall
+- Laboratory
+- Warehouse
 
-## Outdoor Environments
+---
+
+# Outdoor Environments
+
+Examples:
+
 - City Street
+- Village Road
 - Forest
-- Desert
-- Snow Mountains
 - Beach
-- Futuristic City
+- Mountain
+- Desert
+- Snow Landscape
+- Park
+- Stadium
+- Rooftop
 
-## Environment Details
-- Weather
-- Time of Day
-- Background Objects
-- Atmosphere
-- Depth
-- Color Palette
+---
 
-## Tips
-- Keep environment consistent across scenes.
-- Add realistic props.
-- Use cinematic depth and perspective.
-- Match lighting with the environment.
-- Avoid unnecessary background changes.
+# Weather
+
+- Sunny
+- Cloudy
+- Rainy
+- Stormy
+- Foggy
+- Snowy
+- Windy
+
+---
+
+# Time of Day
+
+- Sunrise
+- Morning
+- Noon
+- Afternoon
+- Sunset
+- Evening
+- Midnight
+
+---
+
+# Background Elements
+
+Include details like:
+
+- Buildings
+- Trees
+- Roads
+- Cars
+- Mountains
+- Rivers
+- Sky
+- Clouds
+- Lights
+- Crowd
+
+---
+
+# Atmosphere
+
+Examples:
+
+- Peaceful
+- Dramatic
+- Mysterious
+- Futuristic
+- Horror
+- Fantasy
+- Action-packed
+- Romantic
+
+---
+
+# Environment Prompt Template
+
+Location:
+Time:
+Weather:
+Background:
+Atmosphere:
+Objects:
+Color Palette:
+Lighting:
+
+---
+
+# Example
+
+Location: Modern city street
+
+Time: Sunset
+
+Weather: Clear sky
+
+Background: Tall glass buildings, moving traffic, green trees, glowing street lights
+
+Atmosphere: Cinematic and energetic
+
+Lighting: Warm golden-hour lighting
+
+---
+
+# Pro Tips
+
+- Always describe the environment before the action.
+- Match lighting with the time of day.
+- Add small background details for realism.
+- Keep environments consistent across scenes.
+- Use cinematic descriptions instead of generic words.
