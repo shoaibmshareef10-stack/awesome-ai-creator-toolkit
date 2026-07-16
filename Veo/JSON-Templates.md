@@ -1,160 +1,122 @@
-# Veo Environment Design Guide
+# Veo JSON Templates Guide
 
 ## Introduction
 
-A realistic environment is essential for creating immersive AI videos. A well-described scene improves realism, depth, and storytelling.
+JSON templates provide a structured way to organize prompts for Veo. They improve consistency, make prompts reusable, and simplify complex video generation workflows.
 
 ---
 
-# Environment Formula
+# Basic JSON Template
 
-Location
-
-+
-
-Time of Day
-
-+
-
-Weather
-
-+
-
-Background
-
-+
-
-Atmosphere
-
-+
-
-Lighting
-
-+
-
-Objects
-
-+
-
-Color Palette
+```json
+{
+  "subject": "",
+  "action": "",
+  "environment": "",
+  "camera": "",
+  "lighting": "",
+  "style": "",
+  "quality": "8K"
+}
+```
 
 ---
 
-# Indoor Environments
+# Character Template
 
-- Modern Living Room
-- Luxury Bedroom
-- Office
-- Coffee Shop
-- Library
-- Classroom
-- Laboratory
-- Shopping Mall
-- Hospital
-- Gym
-
----
-
-# Outdoor Environments
-
-- Futuristic City
-- Village
-- Forest
-- Mountain
-- Beach
-- Desert
-- Snow Landscape
-- Park
-- Stadium
-- Rooftop
+```json
+{
+  "character": {
+    "name": "",
+    "age": "",
+    "appearance": "",
+    "outfit": "",
+    "expression": ""
+  }
+}
+```
 
 ---
 
-# Time of Day
+# Camera Template
 
-- Sunrise
-- Morning
-- Noon
-- Afternoon
-- Sunset
-- Evening
-- Midnight
-
----
-
-# Weather
-
-- Sunny
-- Cloudy
-- Rainy
-- Snowy
-- Foggy
-- Stormy
-- Windy
+```json
+{
+  "camera": {
+    "angle": "",
+    "movement": "",
+    "lens": "",
+    "focus": ""
+  }
+}
+```
 
 ---
 
-# Atmosphere
+# Environment Template
 
-- Peaceful
-- Dramatic
-- Futuristic
-- Mysterious
-- Horror
-- Fantasy
-- Romantic
-- Action
-- Sci-Fi
-
----
-
-# Background Details
-
-Always include:
-
-- Buildings
-- Roads
-- Trees
-- Mountains
-- Rivers
-- Vehicles
-- Crowd
-- Sky
-- Clouds
-- Lights
+```json
+{
+  "environment": {
+    "location": "",
+    "time": "",
+    "weather": "",
+    "atmosphere": ""
+  }
+}
+```
 
 ---
 
-# Environment Prompt Template
+# Complete Prompt Template
 
-Location:
-
-Time:
-
-Weather:
-
-Atmosphere:
-
-Background:
-
-Objects:
-
-Lighting:
-
-Color Palette:
+```json
+{
+  "character": {
+    "name": "Hero",
+    "appearance": "Black futuristic suit"
+  },
+  "action": "Standing on a rooftop",
+  "environment": {
+    "location": "Cyberpunk city",
+    "time": "Sunset",
+    "weather": "Light rain"
+  },
+  "camera": {
+    "angle": "Low Angle",
+    "movement": "Dolly In",
+    "lens": "50mm"
+  },
+  "lighting": "Golden Hour",
+  "style": "Hollywood Cinematic",
+  "quality": "Ultra Realistic 8K"
+}
+```
 
 ---
 
-# Example
+# Best Practices
 
-A futuristic cyberpunk city at sunset with neon skyscrapers, flying vehicles, light rain, reflective streets, holographic billboards, volumetric fog, cinematic atmosphere, warm orange and blue lighting.
+- Keep JSON clean and valid.
+- Use descriptive values.
+- Reuse templates across projects.
+- Maintain a consistent structure.
+- Validate before use.
+
+---
+
+# Common Mistakes
+
+- Missing commas
+- Invalid quotes
+- Empty required fields
+- Inconsistent key names
+- Incorrect nesting
 
 ---
 
 # Pro Tips
 
-- Match the environment to the story.
-- Keep the background consistent across scenes.
-- Add weather for realism.
-- Use cinematic lighting.
-- Include small environmental details to make scenes feel alive.
+- Save reusable templates.
+- Build separate templates for different scene types.
+- Keep character, camera, and environment in separate sections.
