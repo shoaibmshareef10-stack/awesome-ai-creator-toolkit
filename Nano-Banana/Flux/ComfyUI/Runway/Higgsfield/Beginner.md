@@ -1,1 +1,0 @@
-# Higgsfield Beginner Guide
