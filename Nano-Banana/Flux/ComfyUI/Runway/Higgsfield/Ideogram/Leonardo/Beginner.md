@@ -1,1 +1,0 @@
-# Leonardo Beginner Guide
