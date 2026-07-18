@@ -1,1 +1,0 @@
-# Ideogram Beginner Guide
