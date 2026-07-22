@@ -1,0 +1,103 @@
+# 💻 Installation
+
+## Overview
+
+This guide explains how to install and configure the OpenAI SDK for different programming languages.
+
+---
+
+## Prerequisites
+
+Before installing the SDK, make sure you have:
+
+- An OpenAI account
+- An API key
+- A supported programming language
+- Internet connection
+
+---
+
+## Supported Languages
+
+The OpenAI SDK supports:
+
+- Python
+- JavaScript
+- TypeScript
+- Node.js
+- Java
+- Go
+- PHP
+- C#
+
+---
+
+## Install the SDK
+
+### Python
+
+```bash
+pip install openai
+```
+
+### Node.js
+
+```bash
+npm install openai
+```
+
+### Bun
+
+```bash
+bun add openai
+```
+
+### Deno
+
+```bash
+deno add jsr:@openai/openai
+```
+
+---
+
+## Configure Your API Key
+
+Store your API key as an environment variable.
+
+Example:
+
+```bash
+OPENAI_API_KEY=your_api_key_here
+```
+
+---
+
+## Verify Installation
+
+After installation:
+
+- Import the OpenAI SDK.
+- Load your API key.
+- Send a simple API request.
+- Confirm that you receive a successful response.
+
+---
+
+## Troubleshooting
+
+- Ensure your API key is valid.
+- Check your internet connection.
+- Update the SDK to the latest version.
+- Verify that your environment variable is correctly configured.
+
+---
+
+## Summary
+
+Installing the OpenAI SDK is quick and provides access to powerful AI capabilities across multiple programming languages.
+
+---
+
+## Next Step
+
+Continue with **Authentication** to learn how the OpenAI API securely authenticates requests.
